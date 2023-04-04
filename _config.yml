@@ -5,8 +5,6 @@
 # Yet another theme for elegant writers with modern flat style and beautiful
 # night/dark mode.
 #
-# Website: https://github.com/jeffreytse/jekyll-theme-yat
-#
 # You can do anything you want, including projects for your clients, as long
 # as you mention an attribution back (credit links in footer or project).
 # See the LICENCE file.
@@ -24,9 +22,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
-author: GitHub User
+title: Front-End
+email: dengrenbing@qq.com
+author: dengrenbing
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -40,16 +38,15 @@ author: GitHub User
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
+copyright: "(cleft) 2023-{currentYear} {author}"
+qq_email: "QQ邮箱：{email}"
 
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  一个摸爬滚打的小前端, 在日常工作中的技术难题记录, 包含javascript/css/vue/uni-app/微信原生小程序等方面的开发使用心得, 希望对各位同行有所帮助.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
-favicon: "" # the favicon for your site
+favicon: "/assets/images/icons/favicon.ico" # the favicon for your site
 
 # Yat date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -73,33 +70,6 @@ yat:
 
 # If you want to change site language, you can set lang option
 # lang: "en"  # default lang is en
-
-# Translate languges
-# langs refer to https://cloud.google.com/translate/docs/languages
-# translate_langs:
-#   - lang: en
-#     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
-#     text: English
-#
-#   - lang: fr
-#     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
-#     text: French
-#
-#   - lang: zh-CN
-#     img: https://cdn.countryflags.com/thumbs/china/flag-400.png
-#     text: Chinese(Simple)
-#
-#   - lang: ja
-#     img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
-#     text: Japanese
-#
-#   - lang: ko
-#     img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
-#     text: Korean
-#
-#   - lang: ru
-#     img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
-#     text: Russian
 
 # You can choose a theme color
 # Default theme colors as below:
@@ -180,29 +150,6 @@ header_pages:
 
 # Pagination setting
 # paginate: 5
-
-# Disqus comments
-# disqus:
-#   shortname: "Your Disqus username"
-
-# Gitment comments
-# gitment:
-#   username: "Your GitHub username"
-#   repo: "The repo to store comments"
-#   client_id: "Your client ID"
-#   client_secret: "Your client secret"
-#   redirect_uri: "Your redirect url"   # If you use a custom domain name
-
-# Utterances comments
-# See https://utteranc.es/
-# set follow_site_theme true to make utterances' theme follow the site's
-
-# utterances:
-#   repo: "owner/repo"
-#   issue_term: "title"
-#   label: "utterances comment"
-#   theme: "github-light"
-#   follow_site_theme: true
 
 # Build settings
 # highlighter: none
